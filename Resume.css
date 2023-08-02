@@ -1,0 +1,78 @@
+body{
+    background-color:rgb(113, 152, 203) ;
+    text-align:center;
+    font-size: 16pt;
+}
+
+h1 span{
+    background-color:rgb(255, 215, 0, .9);
+    margin-top: 40pt;
+
+    padding: 10px 15px 10px 15px;
+    outline: black solid 2px;
+}
+h2 span{
+    background-color:rgb(255, 215, 0, .8);
+    margin-left: 175px;
+    margin-right: 175px;
+    padding: 8px 12px 8px 12px;
+    font-size: 20pt;
+}
+
+h3{
+    margin-left: 175px;
+    margin-right: 175px;
+    padding: 8px 0px 8px 0px;
+    font-size: 18pt;
+}
+
+p {
+    background-color: rgb(255, 215, 0, .8);
+    margin-right: 200px;
+    margin-left:200px;
+    padding: 4px 0px 6px 0px;
+}
+
+p1 span{
+    font-size: 22px;
+    display: block;
+   
+    padding: 4px 0px 6px 0px;
+    text-align:center;
+}
+
+div{
+    background-color:rgb(255, 215, 0, .7);
+    display:inline-block;
+    margin-right: 100px;
+    margin-left:100px;
+    
+}
+
+
+
+.collapsible{
+    background-color: rgb(255, 215, 0, .8);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    margin: 20px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    border-radius:20px;
+    font-family: "Times New Roman";
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: rgba(209, 178, 0, 0.8);
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
