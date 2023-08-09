@@ -19,3 +19,4 @@ function IBClick(){
 function KansasClick(){
     window.location.href='https://www.usd259.org/site/Default.aspx?PageType=3&DomainID=4&PageID=1&ViewID=6446ee88-d30c-497e-9316-3f8874b3e108&FlexDataID=39597'
 }
+
